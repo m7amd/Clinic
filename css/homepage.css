@@ -1,0 +1,255 @@
+ /* General */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgba(233, 236, 239, 0.5) !important;
+  text-transform: capitalize;
+  overflow-x: hidden;
+}
+
+.mg {
+  margin-bottom: 160px !important;
+}
+
+ /* General */
+
+/* Scroll To Top Button  */
+
+.scroll-to-top {
+  position: fixed;
+  z-index: 999;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 52px;
+  border-radius: 50%; 
+  background-color: #212529;
+  color: #FFF;
+  transition: .3s;
+  cursor: pointer;
+  display: none;
+}
+.scroll-to-top .arrow {
+  font-size: 21px;
+}
+.scroll-to-top:hover {
+  background-color: #FFF;
+  border: 1px solid #212529;
+} 
+.scroll-to-top:hover .arrow {
+  color: #212529;
+}
+/* Scroll To Top Button  */
+
+/* Navbar  */
+
+nav a {
+  color: #FFF !important;
+}
+.title {
+  font-size: 25px;
+  user-select: none;
+  font-weight: bold;
+}
+.dropdown-menu {
+  background-color: #212529;
+}
+.dropdown-menu a:hover {
+  color: #212529 !important;
+}
+.menu {
+  color: #FFF;
+}
+
+/* Navbar  */
+
+/* Slider */
+
+.slider {
+  width: 80%;
+  margin: 25px auto 0;
+  overflow: hidden;
+}
+
+.img-1,.img-2,.img-3 {
+  width: 1522px !important;
+  height: 705px !important;
+}
+
+/* small screens only  */
+
+@media (max-width: 767px) {
+  .img-1,.img-2 {
+    width: 145% !important;
+    height: 100% !important;
+    object-fit: cover;
+    object-position: center;
+  }
+  .img-3 {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+/* Slider */
+
+/* About Us  */
+
+.about-us {
+  overflow-x: hidden;
+  background-color: #212529;
+  color: #FFF;
+  padding: 30px 0;
+}
+
+.about-us .flex { 
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.about-us .flex div{
+  flex: 1;
+}
+
+@media (max-width: 767px) {
+  .about-us .flex { 
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+/* About Us  */
+
+
+/* departments  */
+
+.departments .flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 60px;
+}
+.departments .card {
+  margin-top: 60px;
+  transition: .3s;
+  border-radius: 15px;
+}
+
+.departments .card a {
+  text-decoration: none;
+  color: #212529;
+}
+
+
+/* departments  */
+
+
+/* Appointment */
+
+.appointment {
+  background-color: #212529;
+  color: #FFF; 
+  padding: 30px 0;
+}
+
+.appointment .flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+.appointment img {
+  flex: 1;
+  width: 500px;
+  height: 500px;
+}
+
+.appointment .content {
+  flex: 2;
+}
+.appointment a {
+  margin-top: 20px;
+  color: #212529;
+  background-color: #FFF;
+  font-weight: 600;
+  transition: .3s;
+  padding: 9px 30px;
+}
+
+.appointment a:hover {
+  background-color: transparent;
+  border: 1px solid #FFF;
+  color: #FFF;
+}
+
+
+/* Appointment */
+
+
+/* Footer  */
+
+footer {
+  padding: 70px 0;
+  background-color: #212529;
+  color: #FFF;
+}
+
+footer .flex {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+footer .logo {
+  flex: 1;
+}
+
+footer .logo img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+footer .socials {
+  flex: 2;
+  text-align: center;
+}
+
+footer .socials .icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 50%;
+  color: #FFF;
+  cursor: pointer;
+  margin-right: 17px;
+  transition: .3s;
+}
+
+footer .socials .icon:hover {
+  color: #c9c3c3;
+  border: none;
+}
+
+@media (max-width: 767px) {
+  footer .flex { 
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+/* Footer  */
