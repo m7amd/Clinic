@@ -80,26 +80,9 @@ nav a {
   overflow: hidden;
 }
 
-.img-1,.img-2,.img-3 {
+.img-1,.img-2,.img-3,.img-4 {
   width: 1522px !important;
   height: 705px !important;
-}
-
-/* small screens only  */
-
-@media (max-width: 767px) {
-  .img-1,.img-2 {
-    width: 145% !important;
-    height: 100% !important;
-    object-fit: cover;
-    object-position: center;
-  }
-  .img-3 {
-    width: 100% !important;
-    height: 100% !important;
-    object-fit: cover;
-    object-position: center;
-  }
 }
 
 /* Slider */
@@ -123,12 +106,6 @@ nav a {
   flex: 1;
 }
 
-@media (max-width: 767px) {
-  .about-us .flex { 
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
-}
 /* About Us  */
 
 
@@ -246,10 +223,4 @@ footer .socials .icon:hover {
   border: none;
 }
 
-@media (max-width: 767px) {
-  footer .flex { 
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
-}
 /* Footer  */

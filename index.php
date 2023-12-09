@@ -38,7 +38,7 @@
               <li><a class="dropdown-item" href="#">Dental</a></li>
               <li><a class="dropdown-item" href="#">Cardiology</a></li>
               <li><a class="dropdown-item" href="#">Dermatology</a></li>
-              <li><a class="dropdown-item" href="#">Endocrinology</a></li>
+              <li><a class="dropdown-item" href="#">Bones</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -59,13 +59,16 @@
   <div id="carouselExampleAutoplaying" class="carousel slide slider mg" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="./img/3.jpg" draggable="false" class="d-block w-100 img-1">
+        <img src="./img/img4.jpeg" draggable="false" class="d-block w-100 img-1">
       </div>
       <div class="carousel-item">
-        <img src="./img/2.jpg" draggable="false" class="d-block w-100 img-2">
+        <img src="./img/img2.jpeg" draggable="false" class="d-block w-100 img-2">
       </div>
       <div class="carousel-item">
-        <img src="./img/1.jpg" draggable="false" class="d-block w-100 img-3">
+        <img src="./img/img1.jpeg" draggable="false" class="d-block w-100 img-3">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/img3.jpeg" draggable="false" class="d-block w-100 img-4" width="1520" height="700">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -103,27 +106,27 @@
       <h1 class="fs-2">departments</h1>
       <div class="flex">
         <div class="card" style="width: 16rem;">
-          <img src="./img/dental.jpg" draggable="false" style="width: 100%; margin:0; height:180px;">
+          <img src="./img/dental.jpeg" draggable="false" style="width: 100%; margin:0; height:180px;">
           <div class="card-body">
             <h5 class="card-title text-center"><a href="#">Dental</a></h5>
           </div>
         </div>
         <div class="card" style="width: 16rem;">
-          <img src="./img/Cardiology.jpg" draggable="false" style="width: 100%; margin:0; height:180px;">
+          <img src="./img/Cardiology.jpeg" draggable="false" style="width: 100%; margin:0; height:180px;">
           <div class="card-body">
             <h5 class="card-title text-center"><a href="#">Cardiology</a></h5>
           </div>
         </div>
         <div class="card" style="width: 16rem;">
-          <img src="./img/Dermatology.jpg" draggable="false" style="width: 100%; margin:0; height:180px;">
+          <img src="./img/Dermatology.jpeg" draggable="false" style="width: 100%; margin:0; height:180px;">
           <div class="card-body">
             <h5 class="card-title text-center"><a href="#">Dermatology</a></h5>
           </div>
         </div>
         <div class="card" style="width: 16rem;">
-          <img src="./img/Endocrinology.jpg" draggable="false" style="width: 100%; margin:0; height:180px;">
+          <img src="./img/bones.jpeg" draggable="false" style="width: 100%; margin:0; height:180px;">
           <div class="card-body">
-            <h5 class="card-title text-center"><a href="#">Endocrinology</a></h5>
+            <h5 class="card-title text-center"><a href="#">Bones</a></h5>
           </div>
         </div>
       </div>
@@ -162,7 +165,7 @@
       <h2 class="fs-2 text-center fw-bold mb-5">My Clinic</h2>
       <div class="flex">
         <div class="logo" style="text-align: center;">
-          <img src="./img/icon.png" draggable="false" alt="Clinic">
+          <img src="./img/app-icon.jpeg" draggable="false" alt="Clinic">
         </div>
         <div class="socials">
           <i class="fab fa-instagram icon"></i>

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 06, 2023 at 11:39 PM
+-- Generation Time: Dec 09, 2023 at 08:00 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -149,7 +149,7 @@ INSERT INTO `specialties` (`id`, `sname`) VALUES
 (1, 'Cardiology'),
 (2, 'Dental'),
 (3, 'Dermatology'),
-(4, 'Endocrinology');
+(4, 'Bones');
 
 -- --------------------------------------------------------
 
